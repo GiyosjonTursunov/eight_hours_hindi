@@ -10,7 +10,9 @@ class MyApp extends StatelessWidget {
     int days = 30;
     return Material(
       child: Center(
-        child: Text('$days days'),
+        child: Container(
+          child: Text('$days days'),
+        ),
       ),
     );
   }
